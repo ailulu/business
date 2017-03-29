@@ -1,0 +1,139 @@
+body {
+ font-family: arial, sans-serif;
+ margin: 0;
+}
+.container {
+ margin: 0 auto;
+ width: 1024px;
+}
+.header {
+ overflow: hidden;
+ padding: 47px 0 31px;
+}
+
+.logo {
+ float: left;
+ display: block;
+}
+.menu {
+ float: right;
+}
+
+.menu  li {
+ display: inline-block;
+}
+.menu a {
+ margin: 0 19px;
+ color: #424242;
+ font-size: 15px;
+ font-weight: bold;
+ text-decoration: none;
+ text-transform: capitalize;
+}
+.menu a:hover {
+ color: #de2b24;
+}
+.promo {
+ background: url(../images/promo-bg.jpg) center center no-repeat;
+ background-size: cover; 
+ text-align: center;
+ padding: 166px 0;
+ padding-bottom: 235px;
+ color: #fff;
+}
+.promo h1 {
+ font-size: 48px;
+ font-weight: bold;
+ margin: 0;
+}
+.promo p {
+ font-size: 30px;
+ margin: 0 0 24px;
+}
+.promo-heading, 
+.promo-text {
+ color: #424242;
+ font-weight: bold; 
+ line-height: 26px;
+}
+.promo-heading {
+ font-size: 36px;
+ margin: 0;
+}
+.promo-text {
+ font-size: 20px;
+ margin: 0;
+ padding: 9px;
+
+}
+
+.btn {
+ text-decoration: none;
+ background: #f4d270;
+ color: #544e3d;
+ font-size: 23px;
+ font-weight: bold;
+ border-radius: 7px;
+ text-transform: uppercase;
+ padding: 23px 44px;
+ display: inline-block;
+}
+.row {
+ overflow: hidden; 
+}
+.column {
+ width: 323px;
+ float: left;
+}
+.column-center {
+ margin: 0 20px;
+}
+.column-heading {
+ text-align: center;
+ padding: 108px 0 46px;
+}
+.services a {
+ text-decoration: none;
+ font-size: 14px;
+ font-weight: bold;
+ color: #0073bf;
+}
+.services {
+ padding: 0 0 96px;
+ text-align: center;
+ 
+}
+.services .title {
+ font-size: 22px;
+ font-weight: bold;
+ color: #424242;
+ margin-top: 59px;
+}
+.services p {
+ font-size: 13,5px;
+ font-weight: normal;
+ color: #5c5c5c;
+}
+.services .column {
+ padding-top: 51px;
+}
+.services .marketing {
+ background: url(../images/like.png) center top no-repeat;
+}
+.services .creation {
+ background: url(../images/book.png) center top no-repeat;
+}
+.services .ads {
+ background: url(../images/dialogs.png) center top no-repeat;
+}
+.footer {
+ font-size: 14px;
+ color: #cecece;
+ text-align: center;
+ background: #515151;
+ padding: 12px 0 20px;
+}
+.footer .copyright a {
+ text-decoration: none;
+ color: #cecece; 
+}
